@@ -1,0 +1,45 @@
+h1 {
+    font-size: ;
+    font-family: Roboto;
+    padding: ;
+    margin: ;
+    font-weight: ;
+    text-decoration: ;
+    color: ;
+    background-color:#516ECB ;
+    background-size: 100%;
+    text-align: center;
+}
+h2 {
+    font-size: ;
+    font-family: Roboto;
+    padding: ;
+    margin: ;
+    font-weight: ;
+    color:;
+    background-color:;
+}
+
+p {
+    font-family: Roboto;
+    font-size: ;
+    padding: ;
+    margin: ;
+    color:;
+    background-color:;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: ;
+    height:100px ;
+    width:100px ;
+}
+.page{
+    margin:1.5em;
+    background-color:
+    #DEDB8D;}
+body{
+    background-color:#182C5C ;
+}

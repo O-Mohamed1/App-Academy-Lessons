@@ -1,0 +1,11 @@
+h1 with app academy logo/homepage link and sign in button
+nav bar
+h2 with title
+text under title that says By author and social media share links
+wide image
+h3
+paragraph
+h3
+paragraph
+box with thin border that has 2 side by side lists of info
+footer with app academy logo and footer boilerplate links

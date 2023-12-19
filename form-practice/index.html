@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <form class="d-flex justify-content-center">
+        <fieldset>
+            <legend>Add user</legend>
+            <!-- User info -->
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your data with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="role">Role</label>
+                <select class="form-control" name="user_role" id="role">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <!-- User's favorite language -->
+            <p class="lead">Choose your favorite programming language:</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="html">
+                <label class="form-check-label" for="html">HTML</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="css">
+                <label class="form-check-label" for="css">CSS</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="javascript">
+                <label class="form-check-label" for="javascript">JavaScript</label>
+            </div>
+            <br>
+            <!-- Comments and date -->
+            <div class="form-group">
+                <label for="comments">Comments:</label><br>
+                <textarea name="comments id="comments" cols="40" rows="3" placeholder="Please type at least 3 sentences..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="date">Today's date:</label>
+                <input type="date" id="date">
+            </div>
+            <!-- Agree to terms checks -->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="newsletter">
+                <label class="form-check-label" for="newsletter">Sign up for our free newsletter!</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terms">
+                <label class="form-check-label" for="terms">Agree to </label>
+                <a href="example.com">terms and conditions.</a>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
